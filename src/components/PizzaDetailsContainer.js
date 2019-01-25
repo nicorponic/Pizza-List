@@ -4,7 +4,7 @@ import PizzaDetails from "./PizzaDetails";
 
 class PizzaDetailsContainer extends React.Component {
   render() {
-      console.log(this.props)
+      //console.log(this.props)
     const pizza = this.props.pizza;
     if (!pizza) return null;
 
